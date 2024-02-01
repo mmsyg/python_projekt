@@ -216,6 +216,7 @@ class BooksApp:
         keyword = self.search_entry.get()
         results = search_books(self.conn, keyword)
         self.show_results(results)
+        self.clear_entries()
 # funkcja pommocnicza do exportownaia danych z bazy do json
     def export_to_json(self):
         export_to_json(self.conn)
