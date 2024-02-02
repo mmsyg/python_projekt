@@ -12,4 +12,4 @@ Projekt "Moje Książki" to aplikacja desktopowa stworzona w Pythonie z wykorzys
 ## Pliki
 - books.py - głowny skrypt aplikacji
 - books.db - baza danych SQL
-- books.json - dane z bazy danych przechowwyane w JSON (z tąd też aplikacja zczytuje dane wejściowe), zmiany są tutaj wprowadzane w momencie zmieany bazy danych w aplikacji
+- books.json - dane z bazy danych przechowwyane w JSON (stąd też aplikacja zczytuje dane wejściowe), zmiany są tutaj wprowadzane w momencie zmiany bazy danych w aplikacji
